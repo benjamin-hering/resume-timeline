@@ -61,8 +61,8 @@ Main components
 
 -------------------------------- */
 header {
-  height: 200px;
-  line-height: 200px;
+  /*height: 200px;*/
+  line-height: 50px;
   text-align: center;
   background: #303e49;
 }
@@ -71,10 +71,15 @@ header h1 {
   font-size: 18px;
   font-size: 2rem;
 }
+header img{
+   margin-left: auto;
+   margin-right: auto;
+   margin: 1rem;
+}
 @media only screen and (min-width: 1170px) {
   header {
-    height: 300px;
-    line-height: 300px;
+    /*height: 300px;*/
+    line-height: 100px;
   }
   header h1 {
     font-size: 24px;
@@ -275,6 +280,11 @@ header h1 {
   background: #acb7c0;
   color: white;
   border-radius: 0.25em;
+}
+
+.cd-timeline-content img {
+  float: left;
+  margin: .8em 1em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
   background-color: #bac4cb;
